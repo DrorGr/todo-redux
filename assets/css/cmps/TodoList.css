@@ -1,0 +1,24 @@
+.todo-list {
+    background-color: #f4f2ee;
+    column-count: 1;
+    margin: 2em 2em;
+    padding: 1em;
+}
+
+@media (min-width: 460px) {
+    .todo-list {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 650px) {
+    .todo-list {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 940px) {
+    .todo-list {
+        column-count: 4;
+    }
+}

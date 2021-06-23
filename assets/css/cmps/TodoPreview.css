@@ -1,0 +1,39 @@
+.todo-preview {
+    background-color: rgb(227, 157, 127);
+    max-width: 350px;
+    min-height: 225px;
+    margin-bottom: 20px;
+    padding: 1em;
+    break-inside: avoid;
+    /* overflow: hidden; */
+    transition: 0.3s;
+    border-radius: 7px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-preview > *:not(:last-child) {
+    margin-bottom: .25em;
+}
+
+.todo-preview h1 {
+    font-size: 1.35em;
+}
+
+.todo-completed {
+    background-color: rgb(114, 215, 114);
+}
+
+.todo-preview i {
+    cursor: pointer;
+}
+
+.todo-preview i:hover {
+    font-weight: bold;
+}
+
+.todo-preview p span {
+    display: block;
+}
+

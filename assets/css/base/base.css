@@ -1,0 +1,33 @@
+body {
+	font-family: helvetica, sans-serif;
+}
+
+.main-app {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	/* text-align: center; */
+	margin-top: auto;
+	/* padding: 2em 0em; */
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.container {
+	margin: 0 2em;
+	width: 100%;
+}
+
+button {
+	cursor: pointer;
+}
